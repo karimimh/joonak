@@ -1,0 +1,15 @@
+.git
+.gitignore
+**/.venv
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+**/.ruff_cache
+**/.mypy_cache
+**/.DS_Store
+apps/mobile
+docs
+infrastructure/nginx
+.env
+*.md
+!apps/backend/ai/README.md
