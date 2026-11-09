@@ -1,7 +1,6 @@
 # Environment and secrets
 .env
-.env.local
-.env.*.local
+.env.*
 !.env.example
 
 # Python
@@ -88,6 +87,7 @@ Thumbs.db
 .classpath
 .settings/
 *.code-workspace
+.claude/settings.local.json
 
 # Local databases and caches
 *.sqlite
